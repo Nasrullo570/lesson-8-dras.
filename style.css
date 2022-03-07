@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 150px;
+    height: 2000px;
+}
+
+.container .box{
+    padding: 20px;
+}
+.box1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: red;
+    z-index: 2;
+
+}
+.box2{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 177, 221);
+
+}
+.box3{
+    z-index: 1;
+    top: 0;
+    left: 0; 
+     position: relative;
+    background: greenyellow;
+
+}
+.box4{
+    top: 0;
+    left: 0;
+    position: sticky;
+    background: yellow;
+    z-index: 1;
+
+}
+
+
+.box3 h1{
+    color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: rotate(90deg); */
+    /* transform: translateX(-100px); */
+    /* transform: translateY(-100px); */
+    transform: translate(-50%, -50%);
+
+
+}
+.box3 img{
+    width: 100%;
+}
